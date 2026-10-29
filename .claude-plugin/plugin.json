@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "pdfbetter",
+  "displayName": "PDFBetter",
+  "version": "1.0.0",
+  "description": "Work on the PDFs in your PDFBetter account: cited answers and summaries, merge, split, convert, compress, OCR, fill forms, extract data and compare versions.",
+  "author": {
+    "name": "AI Generated Inc.",
+    "email": "support@pdfbetter.com",
+    "url": "https://pdfbetter.com/"
+  },
+  "homepage": "https://pdfbetter.com/",
+  "repository": "https://github.com/AI-Generated-Inc/pdfbetter-claude-plugin",
+  "license": "MIT",
+  "keywords": ["pdf", "documents", "forms", "ocr", "convert", "data-extraction", "summarize"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://help.pdfbetter.com/automation/connect-ai-agents-mcp/",
+  "supportUrl": "https://pdfbetter.com/contact/",
+  "privacyPolicyUrl": "https://pdfbetter.com/privacy/",
+  "termsOfServiceUrl": "https://pdfbetter.com/terms/"
+}

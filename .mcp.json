@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pdfbetter": {
+      "type": "http",
+      "url": "https://pdfbetter.com/api/mcp/"
+    }
+  }
+}
