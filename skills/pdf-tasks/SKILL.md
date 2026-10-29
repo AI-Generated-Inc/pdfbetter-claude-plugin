@@ -9,7 +9,7 @@ PDFBetter works on documents stored in the user's PDFBetter account. Every tool 
 
 ## 1. Get the document
 
-- **Already in the account:** call `list_documents` (pass `query` to match a title or tag when the user names one) and confirm which document they mean when more than one matches.
+- **Already in the account:** call `list_documents` (set `query` to match a title or tag when the user names one) and confirm which document they mean when more than one matches.
 - **Public link:** call `create_document_from_url` with the URL.
 - **Local file** (Claude Code or a session that can run commands): call `create_upload` with the exact file name, size in bytes and MIME type, `PUT` the bytes to the returned `url` with the returned headers within 10 minutes, then call `create_document_from_upload` for a PDF, or `convert` with `uploadIds` and `to: "pdf"` for Word, Excel, PowerPoint or text.
 - **Start from a template:** `list_templates`, then `create_from_template`.

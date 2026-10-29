@@ -10,7 +10,7 @@ PDFBetter extracts fields with page numbers and a verbatim quote for every value
 ## 1. Decide the fields
 
 - Check for a saved schema first: `list_extraction_schemas`.
-- If none fits, either pass inline field definitions to `extract_document`, or save a reusable schema with `create_extraction_schema` when the user will run the same extraction again. Field types: text, number, date, boolean, currency, enum (with options) and table (with columns). Keep names short and specific, such as `invoice_total` or `due_date`.
+- If none fits, either give `extract_document` inline field definitions, or save a reusable schema with `create_extraction_schema` when the user will run the same extraction again. Field types: text, number, date, boolean, currency, enum (with options) and table (with columns). Keep names short and specific, such as `invoice_total` or `due_date`.
 
 ## 2. Run it
 
